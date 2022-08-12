@@ -42,7 +42,7 @@ Estão dentro do arquivo de fonte `icones.ttf`. Para usar, primeiro importe a fo
 ```css
 @font-face {
     font-family: 'icones';
-    src: url(../font/icones.ttf);
+    src: local('icones'), url("../font/icones.ttf") format('truetype');
 }
 ```
 

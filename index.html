@@ -14,8 +14,32 @@
 <body>
     <header class="cabecalho">
         <button class="cabecalho__menu" aria-label="menu"><i></i></button>
-        <img class="cabecalho__logo" src="assets/img/logo.svg" alt="Logo do HZC" />
-        <button class="cabecalho__notificacao" aria-label="notificacao"><i></i></button>
+        <img class="cabecalho__logo" src="assets/img/logo.svg" alt="Logotipo HZC"  />
+        <button class="cabecalho__notificacao" aria-label="notificacao"><i></i></button> 
     </header>
+    <nav class="menu-lateral menu-lateral-ativo">
+        <img src="assets/img/logo.svg" alt="Logotipo HZC" class="menu-lateral__logo"></img>
+        <a href="#" class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo">Início</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--videos">Vídeos</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--picos">Picos</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--camisas">Camisas</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--pinturas">Pinturas</a></nav>
+        <main class="principal">
+            <h2 class="titulo-principal">Início</h2>
+            <article class="cartao">
+                <img src="assets/img/banner-mobile_1.png" alt="Banner mobiler 1" class="cartao-imagem">
+                <div class="cartao-conteudo">
+                    <p class="cartao-destaque">Vídeo em destaque</p>
+                    <h3 class="cartao-titulo">HZC - Life is 2021</h3>
+                    <p class="cartao-perfil">Bruno-Lopez</p>
+                    <p class="cartao-info cartao-info--tempo">33 minutos</p>
+                    <p class="cartao-info cartao-info--visualizacao">26 visualizações</p>
+                    <button class="cartao-botao cartao-botao-play cartao-botao-destaque">Assistir agora</button>
+                </div>
+            </article>
+        </main>
+        <script src="index.js"></script>
 </body>
+
 </html>
